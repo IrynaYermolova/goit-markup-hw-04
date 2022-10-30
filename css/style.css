@@ -258,14 +258,9 @@ h1,h2,h3,h4,h5,ul,li,p {
     background: var(--main-bg-color);
   }
   
-  .features-container {
-    margin-top: 0;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-  
-    display: flex;
-  }
+  /* .features-container {
+     display: flex;
+  } */
   .visually-hidden {
       position: absolute;
       width: 1px;
@@ -289,7 +284,7 @@ h1,h2,h3,h4,h5,ul,li,p {
   }
   .features-list {
     display: flex;
-    height: auto;
+    /* height: auto; */
   }
   .list-icon {
     width: 270px;
@@ -316,15 +311,15 @@ h1,h2,h3,h4,h5,ul,li,p {
   .features-icons {
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
+    /* align-items:center;
     justify-content: start;
     align-content:start;
     width: 270px;
     height: 120px; 
-    align-items: baseline;
+    align-items: baseline; */
   }
   .feature-title {
-    margin-top: 0;
+  
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
