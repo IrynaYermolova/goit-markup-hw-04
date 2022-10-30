@@ -716,16 +716,24 @@ h1,h2,h3,h4,h5,ul,li,p {
   
   }
   
-  .hero-first-btn:hover,
+  /* .hero-first-btn:hover,
   .hero-first-btn:focus {
     color: var(--main-bg-color);
     background-color:var(--accent-color);
-  }
+  } */
   
   .hero-last-btn:hover,
   .hero-last-btn:focus {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
+    /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px; */
+
+  }
+  .hero-last-btn:hover,
+  .hero-last-btn:focus::before {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
   }
   
   
