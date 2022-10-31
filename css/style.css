@@ -193,21 +193,18 @@ h1,h2,h3,h4,h5,ul,li,p {
   /* секция герой */
   
   .hero {
-    min-width: 1200px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
-
+    background-image:linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4 )),
+    url(../images/Img-hero-png.png) ;
+    text-align: center;
+    background-color: #C4C4C4;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image:linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4 )),
-     url(../images/Img-hero-png.png) ;
-     background-color: #C4C4C4;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    padding-right: 15px;
-    text-align: center;
-    
   }
   
   .hero-title {
@@ -532,10 +529,7 @@ h1,h2,h3,h4,h5,ul,li,p {
     height: 60px;
     fill: #AFB1B8;
    }
-   .client-list-link .socials-icon:hover,
-   .client-list-link .socials-icon:focus {
-    fill:#2196F3;
-   }
+  
    .client-list-link {
     display: flex;
     width: 170px;
@@ -546,8 +540,13 @@ h1,h2,h3,h4,h5,ul,li,p {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
    }
+   .client-list-link:hover .socials-icon,
+   .client-list-link:focus .socials-icon {
+    fill: var(--accent-color);
+   }
+   
    .client-list-link:hover,
-  .client-list-link:focus {
+   .client-list-link:focus {
     border-color: var(--accent-color);
   }
   
@@ -612,6 +611,7 @@ h1,h2,h3,h4,h5,ul,li,p {
   .footer-icon-container {
     display: inline-block;
     align-items: baseline;
+    margin-left: 70px;
    
     
   }
@@ -623,11 +623,11 @@ h1,h2,h3,h4,h5,ul,li,p {
     text-transform: uppercase;
     color: var(--main-bg-color);
     margin-bottom: 20px;
-    margin-left: 70px;
+    
   }
   .footer-list {
     display: flex;
-    margin-left: 70px;
+    
   }
   
   .footer-list-item:not(:last-child) {
@@ -769,12 +769,12 @@ h1,h2,h3,h4,h5,ul,li,p {
   display: block;
   width: 370px;
   height: 405px;
-  /* border: 1px solid #EEEEEE;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
+   border: 1px solid #EEEEEE; 
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */ */
 }
 
 .list-item-link:hover,
 .list-item-link:focus::before {
-  border: 1px solid #EEEEEE;
+  /* border: 1px solid #EEEEEE; */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
