@@ -305,16 +305,7 @@ h1,h2,h3,h4,h5,ul,li,p {
     
   }
 
-  .features-icons {
-    display: flex;
-    flex-wrap: wrap;
-    /* align-items:center;
-    justify-content: start;
-    align-content:start;
-    width: 270px;
-    height: 120px; 
-    align-items: baseline; */
-  }
+ 
   .feature-title {
   
     margin-bottom: 10px;
